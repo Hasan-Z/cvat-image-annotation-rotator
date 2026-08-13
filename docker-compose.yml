@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      CVAT_ROTATOR_DATA_DIR: /app/storage/resume
+      CVAT_ROTATOR_TEMP_DATA_DIR: /app/storage/temp
+      CVAT_ROTATOR_EXPORT_DIR: /app/storage/exports
+    volumes:
+      - ./storage:/app/storage

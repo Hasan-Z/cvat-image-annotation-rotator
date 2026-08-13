@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations>
+  <image id="0" name="sample.jpg" width="640" height="480">
+    <box id="1" label="car" xtl="120" ytl="160" xbr="260" ybr="300"/>
+    <polygon id="2" label="road_sign" points="340,120;360,140;350,180;320,150"/>
+  </image>
+</annotations>
