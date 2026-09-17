@@ -272,7 +272,3 @@ start-dev.ps1
 ## License
 
 This project is licensed under the MIT License. See `LICENSE`.
-
-## Contact
-
-Eng. Hasan Zemzem — hasan.zamzam@gmail.com
